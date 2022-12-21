@@ -5,7 +5,7 @@ interface Props {
 }
 
 const ContactCard:React.FC<Props>= () => (
-    <li role="option" className='contactCard' aria-selected="true">
+    <li role="option" className='contactCard'>
         <button>
             <div>name</div>
             <div>phoneNumber</div>
