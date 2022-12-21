@@ -1,8 +1,12 @@
 import React from 'react'
 
-const ContactCard:React.FC<{children?:React.ReactNode}>= ({children}) => (
-    <li className='contactCard' aria-selected='true' >
-        <button aria-selected="true">
+interface Props {
+
+}
+
+const ContactCard:React.FC<Props>= () => (
+    <li role="option" className='contactCard' aria-selected="true">
+        <button>
             <div>name</div>
             <div>phoneNumber</div>
         </button>

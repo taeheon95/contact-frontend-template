@@ -115,7 +115,7 @@
   color: inherit;
 }
 
-.contactCard>button[aria-selected] {
+.contactCard[aria-selected]>button {
   color:white;
 }
 

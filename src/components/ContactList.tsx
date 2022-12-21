@@ -1,16 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const ContactList:React.FC<{children:React.ReactNode}> = ({children})=>(
-    <ul className='contactList'>{children}</ul>
-)
+const ContactList: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <ul className="contactList" role="listbox" title="contactList">{children}</ul>
+);
 
-const ContactCard:React.FC<{children?:React.ReactNode}>= ({children}) => (
-    <li className='concatCard'>
-        <button>
-            <div>name</div>
-            <div>phoneNumber</div>
-        </button>
-    </li>
-)
-
-export default ContactList
+export default ContactList;
