@@ -31,14 +31,14 @@ function App() {
         <MainContainer.LeftBox>
           <SearchBox />
           <ContactList>
-            <ContactCard/>
-            <ContactCard/>
-            <ContactCard/>
-            <ContactCard/>
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
           </ContactList>
         </MainContainer.LeftBox>
         <MainContainer.RightBox>
-          <ContactDetail/>
+          <ContactDetail />
         </MainContainer.RightBox>
         <button className="circleButton mainContainer--circleButton__add">
           +
@@ -54,14 +54,14 @@ function App() {
         <MainContainer.LeftBox>
           <SearchBox />
           <ContactList>
-            <ContactCard/>
-            <ContactCard/>
-            <ContactCard/>
-            <ContactCard/>
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
+            <ContactCard />
           </ContactList>
         </MainContainer.LeftBox>
         <MainContainer.RightBox>
-          <EmptyBox/>
+          <EmptyBox />
         </MainContainer.RightBox>
         <button className="circleButton mainContainer--circleButton__add">
           +

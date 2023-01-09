@@ -1,12 +1,13 @@
 html,
 body {
   min-width: 600px;
-  overflow: hidden;
   overflow-x: auto;
 }
+
 * {
   box-sizing: border-box;
 }
+
 button {
   cursor: pointer;
 }
